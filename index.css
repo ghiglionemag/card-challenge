@@ -66,7 +66,7 @@ body {
   margin: 5px;
 }
 .product-price,
-.product-cuan {
+.product-quantity {
   font-size: 16px;
 }
 .product-price {
@@ -77,9 +77,9 @@ body {
   margin-right: 7px;
 }
 
-.product-cuan {
+.product-quantity {
 }
-.product-cuan::before {
+.product-quantity::before {
   content: url(./images/icon-clock.svg);
   margin-right: 7px;
 }
