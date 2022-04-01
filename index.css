@@ -41,6 +41,9 @@ body {
     0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
     0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
 }
+.product-img:hover{
+  opacity: 0.5;
+}
 .product-description {
 }
 .product-title {
@@ -82,7 +85,7 @@ body {
 }
 
 .product-description,
-.product-cuan {
+.product-quantity {
   color: var(--soft-blue);
 }
 
