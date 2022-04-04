@@ -8,13 +8,12 @@ function search(results) {
 
     const titleEl = templateEl.content.querySelector(".product-title");
     titleEl.textContent = r.title;
-    titleEl.href = r.permalink;
 
     const priceEl = templateEl.content.querySelector(".product-price");
-    priceEl.textContent = r.price;
+    priceEl.textContent = "$ " + r.price;
 
-    const countNumberEl = templateEl.content.querySelector(".product-quantity");
-    countNumberEl.textContent = r.sold_quantity;
+    const countNumberEl = templateEl.content.querySelector(".available_quantity");
+    countNumberEl.textContent = r.available_quantity;
 
     const clone = document.importNode(templateEl.content, true);
     contenedor.appendChild(clone);
@@ -40,7 +39,7 @@ function main() {
   
         <div class="product-status">
           <h2 class="product-price">0.041 ETH</h2>
-          <h2 class="product-quantity">3 days left</h2>
+          <h2 class="available_quantity">3 days left</h2>
         </div>
         <br />
         <div class="product-attribution">

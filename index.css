@@ -85,26 +85,21 @@ body {
   margin: 5px;
 }
 .product-price,
-.product-quantity {
+.available_quantity {
   font-size: 16px;
 }
 .product-price {
   color: var(--cyan);
 }
-.product-price::before {
-  content: url(./images/icon-ethereum.svg);
-  margin-right: 7px;
+.available_quantity {
 }
-
-.product-quantity {
-}
-.product-quantity::before {
-  content: url(./images/icon-clock.svg);
+.available_quantity::before {
+  content: "Disponibles:";
   margin-right: 7px;
 }
 
 .product-description,
-.product-quantity {
+.available_quantity {
   color: var(--soft-blue);
 }
 
